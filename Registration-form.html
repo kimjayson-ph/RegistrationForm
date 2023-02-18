@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="restyle.css" />
+  </head>
+  <body>
+    <div class="container-md wrapper">
+      <div class="title">Registration Form</div>
+      <div class="container-md form">
+        <form class="container-md" action="Registered.html">
+          <div class="inputfield">
+            <label>First Name:</label>
+            <input type="text" class="input" required />
+          </div>
+          <div class="inputfield">
+            <label>Last Name:</label>
+            <input type="text" class="input" />
+          </div>
+          <div class="inputfield">
+            <label>Email:</label>
+            <input type="email" class="input" />
+          </div>
+          <div class="inputfield">
+            <label>Password:</label>
+            <input type="password" class="input" />
+          </div>
+          <div class="inputfield">
+            <label>Phone Number:</label>
+            <input type="number" class="input" />
+          </div>
+          <div class="inputfield">
+            <label>Gender:</label>
+            <input type="radio" id="Male" name="Gender" value="Male" />
+            <label>Male</label>
+            <input type="radio" id="Female" name="Gender" value="Female" />
+            <label>Female</label>
+          </div>
+
+          <div class="inputfield">
+            <label>City:</label>
+            <div class="inputfield">
+              <select>
+                <option value="">Select</option>
+                <option value="Makati City">Makati City</option>
+                <option value="Taguig City">Taguig City</option>
+                <option value="Pasay City">Pasay City</option>
+              </select>
+            </div>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Register" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
